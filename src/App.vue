@@ -7,7 +7,7 @@
         <div class="container">
           
           <!-- modal with validate -->
-          <button class="btn btnPrimary" @click="modalValidate = !modalValidate">Show modal with form + validate</button>
+          <button class="btn btnPrimary" @click="modalValidate = !modalValidate">Show modal window with validate</button>
           <modalValidate v-show="modalValidate" @close="modalValidate = false" regAuth/>
 
         </div>
